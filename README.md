@@ -16,7 +16,7 @@ A DeepSeek Harness (DSH) plugin for GenOffice task lists. When a session invokes
 
 ## Requirements
 
-- DeepSeek Harness with DSH Web or DSH Desktop. Tested with DSH Desktop 2.0.13 (dsh 0.1.5-rc.2) on macOS.
+- DeepSeek Harness with DSH Web or DSH Desktop. Tested with DSH Desktop 2.0.13 (dsh 0.1.5-rc.2) and DSH Web (dsh 0.1.5-rc.3) on macOS.
 - [GenOffice](https://github.com/genspark-ai/genoffice) on macOS (`/Applications/GenOffice.app`), Windows (`%LOCALAPPDATA%\Programs\GenOffice\GenOffice.exe`) or Linux (`/opt/GenOffice/genoffice`, `/usr/bin/genoffice`, `/usr/local/bin/genoffice`, `~/Applications/GenOffice.AppImage`). Set `GENOFFICE_PATH` for any other location.
 - The two skills ship inside the plugin. The pane lists what it found.
 
