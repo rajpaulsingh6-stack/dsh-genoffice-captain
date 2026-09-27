@@ -1,0 +1,11 @@
+Fixture board																									
+Owner: Owner | Completion-only workers | Revision 2026-09-27T08-20-06-601Z-8e838d																									
+To discuss a task, copy its row (or type its ID, e.g. T002, or its row number) into the agent chat. A checked box means the outcome was met with evidence; blocked is not done.																									
+ID	Status	Task / acceptance outcome	Host / scope	Done	Assigned worker	Evidence / dependency																			
+T001	DONE	Released task		TRUE	Worker A																				
+T002	BLOCKED	Blocked teardown of lane		FALSE	Assigned worker																				
+T003	DONE	Owner task for Laya decider coverage		TRUE	Owner / unassigned	Done note: verified by owner																			
+T004	SPEC READY	Spec only translator schema		FALSE	Owner / unassigned																				
+T005	IN PROGRESS	Added by owner		FALSE	Assigned worker																				
+																									
+																									

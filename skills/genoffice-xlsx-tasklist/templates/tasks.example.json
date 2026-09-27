@@ -1,0 +1,17 @@
+{
+  "title": "PROJECT X | Genofficetasklist092726Ponderosa",
+  "subtitle": "Change Status, Scope or Done with the dropdowns to redirect the agent, or copy rows / type IDs into the agent chat to discuss.",
+  "mode": "team",
+  "ownerId": "<Captain CODEX_THREAD_ID>",
+  "ownerLabel": "⭐CAPTAIN_NAME",
+  "session": "Genofficetasklist092726Ponderosa",
+  "workbookName": "Genofficetasklist092726Ponderosa.xlsx",
+  "scopes": ["OBITO", "ROSHI", "KAKASHI", "Operator"],
+  "layout": { "columns": ["id", "status", "task", "scope", "done", "worker", "evidence"], "doneControl": "dropdown" },
+  "tasks": [
+    {"id": "T001", "task": "Record current inventory with paths and hashes", "scope": "OBITO", "status": "DONE", "done": true, "evidence": "evidence/inventory.md"},
+    {"id": "T002", "task": "Review the plan and return an explicit agreement checklist", "scope": "Operator", "status": "IN PROGRESS", "worker": "<worker session id>", "workerLabel": "Reviewer #1", "context": "Plan: docs/plan-r2.md sections 2-4", "acceptance": "Each requirement marked Agree / Amend with a reason", "evidence": ""},
+    {"id": "T003", "task": "Install service on ROSHI after GREENLIGHT", "scope": "ROSHI", "status": "BLOCKED", "deps": ["T002"], "evidence": "Waiting for operator approval"},
+    {"id": "T004", "task": "Choose runtime option A or B", "scope": "Operator", "status": "DECISION NEEDED", "evidence": "See plan section 3"}
+  ]
+}

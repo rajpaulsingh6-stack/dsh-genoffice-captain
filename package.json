@@ -1,0 +1,25 @@
+{
+  "name": "dsh-genoffice-captain",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: when a session invokes the GenOffice task-list skills, it launches GenOffice for a solo session, or opens a DESIGNATE THE CAPTAIN pane to pick the orchestrating session first.",
+  "keywords": ["dsh-plugin", "deepseek-harness", "genoffice", "task-list", "orchestration", "captain"],
+  "license": "MIT",
+  "author": "Rajpaul Singh",
+  "contributors": ["Claude (Anthropic AI assistant)"],
+  "repository": { "type": "git", "url": "git+https://github.com/rajpaulsingh6-stack/dsh-genoffice-captain.git" },
+  "homepage": "https://github.com/rajpaulsingh6-stack/dsh-genoffice-captain#readme",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": ["index.js", "client.js", "cordis.patch.yml", "skills", "screenshots.json", "assets"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web", "inject": ["@deepseek-ai/dsh-api-session-controller"] }
+  },
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node test.mjs" }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "SOLO | MY WORK LIST",
+  "mode": "solo",
+  "ownerId": "<this agent CODEX_THREAD_ID>",
+  "ownerLabel": "Agent",
+  "session": "<task id>",
+  "workbookName": "SOLO-TASKS.xlsx",
+  "tasks": [
+    {"id": "T001", "task": "Reproduce the failure and capture the exact error", "scope": "Host A", "status": "IN PROGRESS", "evidence": ""},
+    {"id": "T002", "task": "Fix, then prove with the real end-to-end call", "scope": "Host A", "status": "TODO", "evidence": ""},
+    {"id": "T003", "task": "Operator decision: keep or roll back the old config", "scope": "Operator", "status": "DECISION NEEDED", "evidence": ""}
+  ]
+}
